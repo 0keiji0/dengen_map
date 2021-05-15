@@ -1,0 +1,11 @@
+credential.helper=!aws codecommit credential-helper $@
+credential.usehttppath=true
+core.editor=nano
+user.name=0keiji0
+user.email=keiji.goto213@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com//dengen_map.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
