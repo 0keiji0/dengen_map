@@ -1,9 +1,10 @@
+<% provide(:title, "Home") %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="base.css">
-<title>電源map</title>
+    <title><%= yield(:title) %> | 電源map</title>
 </head>
 <body>
 <div id="pagebody">
