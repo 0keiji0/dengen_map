@@ -1,0 +1,65 @@
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="base.css">
+    <title><%= yield(:title) %> | 電源map</title>
+</head>
+<body>
+<div id="pagebody">
+
+	<!-- ヘッダ -->
+	<div id="header">
+	<h1><a href="index.html"><img src="images/logo.png" alt="電源map"></a></h1>
+	</div>
+	
+	<!-- メインメニュー -->
+	<ul id="menu">
+	<li><a href="index.html">ホーム</a></li>
+	<li><a href="product.html">ログイン</a></li>
+	<li><a href="profile.html">エリアから探す</a></li>
+	<li><a href="contact.html">お問い合わせ</a></li>
+	</ul>
+
+	<!-- ヘッダ画像 -->
+	<div id="img_subpage">
+	<img src="./images/img_product.png" alt="エリアから探す">
+	</div>
+
+	<!-- サブメニュー（左カラム） -->
+	<div id="submenu">
+		<h2>エリアから探す</h2>
+		<ul>
+			<li><a href="#info0001">東京</a></li>
+			<li><a href="#info0002">神奈川</a></li>
+			<li><a href="#info0003">愛知</a></li>
+			<li><a href="#info0003">大阪</a></li>
+			<li><a href="#info0003">京都</a></li>
+			<li><a href="#info0003">福岡</a></li>
+			
+		</ul>
+	</div>
+
+	<!-- インフォメーション（右カラム） -->
+	<div id="info">
+		<h3 id="info0001">特集</h3>
+		<p>
+		<img src="images/product0001.png" alt="特集の画像" class="infoimg_subpage">
+		特集の内容①
+		</p>
+		
+		<p>
+		<img src="images/product0002.png" alt="特集の画像" class="infoimg_subpage">
+　　特集の内容②	
+　　</p>
+		<hr>
+
+	</div>
+
+	<!-- フッタ -->
+	<div id="footer"><small>Copyright (c) Dengenmap.,inc  All Rights Reserved.</small></div>
+
+</div>
+</body>
+</html>
