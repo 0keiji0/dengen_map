@@ -1,3 +1,10 @@
+User.create(email: 'admin@test.com', password: 'password')
+User.create(email: 'satou@test.com', password: 'password')
+User.create(email: 'suzuki@test.com', password: 'password')
+User.create(email: 'tanaka@test.com', password: 'password')
+User.create(email: 'test@test.com', password: 'password')
+
+
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
