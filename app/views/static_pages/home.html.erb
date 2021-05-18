@@ -1,18 +1,42 @@
 <div class="center jumbotron">
-  <h1>Welcome to the Sample App</h1>
+<h1><img src="images/logo.png" alt="電源map"></a></h1>
 
-  <h2>
-    This is the home page for the
-    <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
-
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to "ログイン", signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
+	<!-- サブメニュー（中央カラム1） -->
+	<div id="submenu">
+		<h2>エリアから探す</h2>
+		<ul>
+			<li><a href="#info0001">東京</a></li>
+			<li><a href="#info0002">神奈川</a></li>
+			<li><a href="#info0003">愛知</a></li>
+			<li><a href="#info0003">大阪</a></li>
+			<li><a href="#info0003">京都</a></li>
+			<li><a href="#info0003">福岡</a></li>
+			
+		</ul>
+	</div>
 
+	 <!--インフォメーション（中央カラム2） -->
+	<div id="info">
+		<h2 id="info0001">特集</h2>
+		<p>
+		<img src="images/product0001.png" alt="特集の画像" class="infoimg_subpage">
+		特集の内容①
+		</p>
+		
+		<p>
+		<img src="images/product0002.png" alt="特集の画像" class="infoimg_subpage">
+　　    特集の内容②	
+　　    </p>
+
+
+	</div>
+
+
+
+            
 
 <!--<% provide(:title, "Home") %>-->
 <!--<!DOCTYPE html>-->
@@ -25,64 +49,10 @@
 <!--<body>-->
 <!--<div id="pagebody">-->
 
-	<!-- ヘッダ -->
-<!--	<div id="header">-->
-<!--	<h1><a href="index.html"><img src="images/logo.png" alt="電源map"></a></h1>-->
-<!--	</div>-->
-
 
 	<!-- ヘッダ画像 -->
 <!--	<div id="img_subpage">-->
 <!--	<img src="./images/img_product.png" alt="ヘッダー画像">-->
 <!--	</div>-->
 
-<!--  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>-->
-<!--</div>-->
 
-<!-- <%= link_to image_tag("rails.png", alt: "Rails logo"), -->
-<!-- 'http://rubyonrails.org/' %>-->
-
-
-	<!-- サブメニュー（中央カラム1） -->
-<!--	<div id="submenu">-->
-<!--		<h2>エリアから探す</h2>-->
-<!--		<ul>-->
-<!--			<li><a href="#info0001">東京</a></li>-->
-<!--			<li><a href="#info0002">神奈川</a></li>-->
-<!--			<li><a href="#info0003">愛知</a></li>-->
-<!--			<li><a href="#info0003">大阪</a></li>-->
-<!--			<li><a href="#info0003">京都</a></li>-->
-<!--			<li><a href="#info0003">福岡</a></li>-->
-			
-<!--		</ul>-->
-<!--	</div>-->
-
-	<!-- インフォメーション（中央カラム2） -->
-<!--	<div id="info">-->
-<!--		<h2 id="info0001">特集</h2>-->
-<!--		<p>-->
-<!--		<img src="images/product0001.png" alt="特集の画像" class="infoimg_subpage">-->
-<!--		特集の内容①-->
-<!--		</p>-->
-		
-<!--		<p>-->
-<!--		<img src="images/product0002.png" alt="特集の画像" class="infoimg_subpage">-->
-<!--　　特集の内容②	-->
-<!--　　</p>-->
-<!--		<hr>-->
-
-<!--	</div>-->
-
-	<!-- フッタ -->
-<!--	<div id="footer"><small>Copyright (c) Dengenmap.,inc  All Rights Reserved.</small></div>-->
-	
-<!--	<ul id="menu">-->
-<!--	<li><a href="index.html">プライバシーポリシー</a></li>-->
-<!--	<li><a href="profile.html">電源mapについて</a></li>-->
-<!--	<li><a href="contact.html">ヘルプ・お問い合わせ</a></li>-->
-<!--	</ul>-->
-
-
-<!--</div>-->
-<!--</body>-->
-<!--</html>-->
