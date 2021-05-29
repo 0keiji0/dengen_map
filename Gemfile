@@ -13,6 +13,8 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'devise-i18n-views' 
 gem 'omniauth' 
+gem 'omniauth-twitter'
+
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3.13'
