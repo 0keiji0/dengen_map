@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'pages#index'
-  get 'pages/index'
+  root 'static_pages#home'
+  get 'static_pages/home'
   get 'pages/show'
   
   devise_for :users
